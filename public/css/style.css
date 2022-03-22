@@ -161,7 +161,15 @@ body, html {
   
 }
 
-.navbar-brand {
+#camel
+{
+  background-color:cyan;
+  color:darkblue;
+}
+.nav-link
+{
+  color:gold;
+}
 
-  
+
 }
