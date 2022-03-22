@@ -1,47 +1,78 @@
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Tech Blog</title>
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/3.0.0/css/ionicons.css" rel="stylesheet" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
-  <link href="/css/styles.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Tech Report</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet" />
 
-    <link href="./template.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 
-<style>
-  body {
-    font-family {}
-    
-  }
-</style>
-  </head>
 
-  <body class="flex-column min-100-vh">
+<!--Main Navigation-->
+  <header>
+    <style>
+      #intro {
+        background-image: url(https://mdbootstrap.com/img/new/fluid/city/008.jpg);
+        height: 100vh;
+      }
 
-    <nav class="navbar navbar-dark bg-dark">
-      <ul class="flex-row">
-        <li class="li-inline nav-item"><a href="/">Home</a></li>
-        <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
-        <li class="li-inline nav-item"><a href="#" id="logout-link"</a></li>
-         
-      </ul>
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="/">
+          <strong>THE TECH REPORT</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dashboard" rel="nofollow"
+                target="_blank">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login" target="_blank">Login</a>
+            </li>
+          </ul>
+
+ 
+        </div>
+      </div>
     </nav>
-    <header class="hero">
-      <h1 class="app-title"><a href="/dashboard">Your Dashboard</a></h1>
-    </header>
+    <!-- Navbar -->
 
-    <main class="col-auto">
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8);">
+             <div class="bg d-flex justify-content-center align-items-center">
       {{{body}}}
     </main>
 
-    <footer class="footer flex-row justify-center">
-      <a href="/dashboard/new">➕ New Post</a>
+    <footer class="footer flex-row justify-center" id= "button">
+      <a class="colorss" href="/dashboard/new">Create a New Post</a>
     </footer>
   </body>
 
