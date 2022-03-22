@@ -133,6 +133,7 @@ input {
 body, html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .bg {
@@ -161,15 +162,15 @@ body, html {
   
 }
 
-#camel
+.navbar-brand
 {
-  background-color:cyan;
-  color:darkblue;
+  
+  color:rgb(232, 232, 238);
 }
 .nav-link
 {
-  color:gold;
+  color:rgb(255, 252, 234);
 }
 
-
-}
+#navbarNav
+{ color:goldenrod;}
