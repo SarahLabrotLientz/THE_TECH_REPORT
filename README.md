@@ -22,7 +22,7 @@ install mySQL and npm i
 
 ## Preview
 
-![TECHREPORT](ss.png)
+![TECHREPORT](tr.png)
 
 
 ## Github Link
