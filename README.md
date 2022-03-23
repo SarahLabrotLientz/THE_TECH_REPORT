@@ -22,15 +22,12 @@ install mySQL and npm i
 
 ## Preview
 
-![Insomnia](ss.png)
+![TECHREPORT](ss.png)
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Github Link
 
-[CLICK HERE](https://github.com/SarahLabrotLientz/Social-Network-API)
+[CLICK HERE](https://github.com/SarahLabrotLientz/THE_TECH_REPORT)
 
 ## License
 
