@@ -1,4 +1,4 @@
-
+//
 
 body, html {
   height: 100%;
@@ -8,7 +8,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("../css/lights.gif");
+  /* background-image: url("../css/lights.gif"); */
 
   /* Full height */
   height: 100%;
@@ -64,3 +64,11 @@ footer {
 h2 {
   text-align: center;
 }
+
+.card {
+  background-color: rgb(80, 76, 62);
+}
+h2 {
+  color:seashell;
+}
+

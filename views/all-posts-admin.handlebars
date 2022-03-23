@@ -1,8 +1,12 @@
-<div class="posts list-group">
-  {{#each posts}}
-    <a class="list-item flex-row justify-space-between" href="/dashboard/edit/{{id}}">
-      <span>{{title}}</span>
-      <span>{{format_date createdAt}}</span>
+
+
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-transparent border-success text-white"> Past Posts {{#each posts}} </div>
+  <div class="card-body text-success text-white">
+   <a class="list-item flex-row justify-space-between" href="/dashboard/edit/{{id}}">
+      <span class="card-title text-white">{{title}}</span>
+      <span class="card-title text-warning">{{format_date createdAt}}</span>
     </a>
   {{/each}}
+</div>
 </div>
