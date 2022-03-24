@@ -1,28 +1,16 @@
 # THE_TECH_REPORT
-This is a CMS-style tech blog where developers can publish their blog posts and comment on the posts of others.
+This is a CMS-style tech blog where tech nerds can publish their blog posts and comment on the posts of others.
 
 
-## Description
+## Site Preview
 
-blah blah blah
-
-```bash
-npm start
-```
-
-## Usage
-
-```python
-install mySQL and npm i
-```
+![TECHREPORT2](3.png)
+![TECHREPORT2](1.png)
+![TECHREPORT](2.png)
 
 ## Heroku Link
 
-[CLICK HERE](https://drive.google.com/file/d/1wxjLwscCrcLIkUfgCeUznVVBbtw4Y3pw/view)
-
-## Preview
-
-![TECHREPORT](tr.png)
+[CLICK HERE](https://infinite-sierra-30164.herokuapp.com/)
 
 
 ## Github Link
